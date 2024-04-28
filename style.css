@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ------------------------------herosection part 1----------------------------------- */
+a{
+    text-decoration: none;
+}
+/* -------------------------hero section start-------------------------- */
+.hero-text-bottom-sec{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-2.jpg);
+    height: 590px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: end;
+}
+/* ------------------hero-text-bottom-text-section-------------------- */
+.hero-text-bottom-t-section{
+    width: 100%;
+    height: 195px;
+    background-color: orangered;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ------------------hero-text-box-1-------------------- */
+.hero-text-box-1{
+    height: 195px;
+    width: 60%;
+    background-color: orangered;
+}
+.hero-text-box-1-heading{
+    margin: 44px 0 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1.7rem;
+    width: 100%;
+    margin-left: 20px;
+}
+.hero-text-box-1-para{
+    line-height :1.5em;
+    margin-right: 40px;
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 0.05em;
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+}
+/* ------------------hero-text-box-2-------------------- */
+.hero-text-box-2{
+    height: 195px;
+    width: 450px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-button{
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 330px;
+}
+.section-main{
+    width: 450px;
+    height: 124px;
+    display: flex;
+}
+.text-box-sec-1{
+    height: 124px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+}
+.slide-raised{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.slide-raised > span{
+    letter-spacing: 0.1em;
+    display: block;
+    font-size: 16px;
+    color: #963E09;
+    margin-top: 30px;
+}
+.slide-raised > strong{
+    font-size: 36px;
+    color: #963E09;
+}
+.slide-raised-1{
+    border-right: 1px solid rgba(0, 0, 0, 0.315);
+}
+.slide-actions-sec-3{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid rgba(0, 0, 0, 0.315);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #963E09;
+}
+.slide-actions-se > a{
+    text-decoration: none;
+}
+
+
+/* ----------------------------------Herosection part 1 end----------------------------------- */
+/* ============================================================================================= */
+/* ========================================================================================== */
+/* ----------------------------------Herosection part 2----------------------------------- */
+
+.hero-img{
+    width: 100%;
+    height: 590px;
+    background-image: url(https://html.dynamiclayers.net/dl/charitify/img/slider-3.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+}
+.hero-text-1{
+    width: 45%;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: jost;
+    background-color: orangered;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.hero-heading-01{
+    font-size: 45px;
+    margin-top: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.hero-p-01{
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.hero-para-02{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.hero-section-btns-1{
+     width: 100%;
+     display: flex;
+     margin-top: 20px;
+     flex-wrap: wrap;
+}
+.hero-btns{
+    border: 1px solid black;
+    height: 50px;
+    width: 160px;
+    margin: 7px;
+    align-self: center;
+    margin-left: 30px;
+    background-color: aliceblue;
+    color: black;
+}
+.hero-btns:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+}
+/* ========================================================================================== */
+/* ------------------------------------------cards section------------------------------------ */
+/* =========================================================================================== */
+.cards{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card-body {
+    transition: 0.3s;
+    width: 269px;
+    height: 450px;
+    margin: 30px;
+    background-color: #F8B864;
+}
+.card-line-main{
+    display: flex;
+    margin-top: 30px;
+}
+.card-line{
+    width: 70%;
+    height: 3px;
+    background-color: black;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+}
+.card-line-2{
+    width: 20%;
+    height: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    background-color: white;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.hero-card-img-div{
+    width: 100%;
+    height: 175px;
+}
+.hero-card-img{
+    width: 100%;
+    height: 175px;
+    /* margin: 10px; */
+}
+.hero-card-text {
+    padding: 2px 16px;
+}
+.hero-card-read-more{
+    margin-top: 30px;
+}
+.card-h{
+    margin-top: 20px;
+}
+
+/* ========================================================================= */
+/* ----------------------------Page heading 1-------------------------------- */
+/* ========================================================================== */
+
+.page-heading{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pagae-para-1{
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+}
+.page-h-1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: jost;
+    margin-top: 20px;
+}
+.page-hr{
+    margin-top: 20px;
+    height: 7px;
+    background-color: #F8B864;
+    width: 150px;
+}
+
+/* ------------------------------------Herosection part 1 end----------------------------------- */
+
+/* ============================================================================= */
+/*------------------------------------slide-text-------------------------------- */
+/* ============================================================================== */
+
+.slider-and-text{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(24, 23, 23);
+    position: relative;
+    top: 50px;
+}
+.slider-text-sec-slider {
+    width: 50%;
+    height: 500px;
+    background-color: rgb(43, 41, 41);
+}
+.slider-and-text-img{
+    width: 100%;
+    height: 500px;
+}
+
+.hero-text-main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: jost;
+}
+.slider-txt{
+    width: 50%;
+    height: 500px;
+    background: rgb(7, 7, 7);
+}
+.slider-text-line{
+    height: 4px;
+    width: 100px;
+    background: orangered;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.hero-text{
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+.hero-heading-2{
+    font-size: 27px;
+    margin-top: 25px;
+    font-weight: 600;
+    margin-left: 30px;
+    letter-spacing: 1.5px;
+}
+.hero-2-p-1{
+    margin-top: 70px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 30px;
+    letter-spacing: 1.5px;
+}
+.hero-2-para-2{
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 400;
+    margin-left: 30px;
+    letter-spacing: 1.5px;
+}
+.hero-para-3{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+    letter-spacing: 1.5px;
+}
+
+.hero-section-btns{
+     width: 100%;
+     display: flex;
+     margin-top: 0px;
+     flex-wrap: wrap;
+}
+.or{
+    margin: 20px 20px;
+    font-size: 20px;
+}
+.email-us{
+    font-size: 16px;
+}
+.e-add{
+    color: orangered;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.email{
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.hero-btns{
+    border: 1px solid black;
+    height: 50px;
+    width: 190px;
+    margin: 7px;
+    align-self: center;
+    margin-left: 30px;
+    background-color: aliceblue;
+    color: black;
+}
+.hero-btns:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+}
+
+@media (max-width: 1120px) {
+    .slider-and-text{
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        background: black;
+    }
+    .slider-text-sec-slider {
+        width: 100%;
+    }
+    .slider-txt{
+        width: 100%;
+    }
+    .hero-section-btns{
+        display: flex;
+       margin-top: 80px;
+   }
+   .hero-para-2{
+    font-size: 18px;
+    }
+   .hero-para-3{
+    font-size: 16px;
+   }
+}
+/* ============================================================================= */
+/*------------------------------------three Section-------------------------------- */
+/* ============================================================================== */
+.three-sections{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 80px;
+}
+.three-section-01{
+    width: 50%;
+    height: 600px;
+}
+.three-section-h-01{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 70%;
+}
+.three-sec-01-hr{
+    background-color: orangered;
+    height: 2px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+.three-sec-01-img-text{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.three-sec-01-img{
+    width: 30%;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.three-sec-t-01{
+    margin-top: 10px;
+    width: 60%;
+    height: 220px;
+    display: inline-block;
+    margin-left: 10px;
+}
+/* -----------------section 2------------------- */
+.section-3{
+     width: 50%;
+     height: 600px;
+}
+.event{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 70%;
+}
+.section-card-body{
+     height: 450px;
+     width: 90%;
+     margin-left: 30px;
+     margin-top: 30px;
+}
+.section-card-h{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.section-card-p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.section-card-img{
+    width: 100%;
+    height: 300px;
+}
+.sec-1-b{
+    height: 300px;
+    width: 80%;
+    margin-left: 20px;
+}
+.sec-1-b-h{
+    font-size: 20px;
+}
+.sec-b-hr{
+   width: 70%;
+   display: inline-block;
+}
+.img-div-sec-b{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img-sec-b{
+    height: 100px;
+    width: 100px;
+}
+.t-sec-b{
+   font-size: 20px;
+   margin-left: 20px;
+}
+
+/* =================================================================================================== */
+/* ------------------------------------------staff cards-------------------------------------------- */
+/* ================================================================================================== */
+.staff-cards{
+    transition: 0.3s;
+    width: 269px;
+    height: 450px;
+    background-color: #F8B864;
+    margin-top: 50px;
+}
+.staff-cards :hover{
+    background-color: orangered;
+}
+
+
+/* =================================================================================================== */
+/* ------------------------------------------only text-------------------------------------------- */
+/* ================================================================================================== */
+.only-text{
+    margin-top: 50px;
+    height: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: orangered;
+}
+.only-text-p1{
+    width: 60%;
+    /* height: 50%; */
+    color: white;
+    font-size: 21px;
+    align-self: center;
+}
+
+
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ---------------------------------------Media quries------------------------------------------ */
+
+@media(max-width: 1124px) {
+    .hero-text-bottom-sec{
+        align-items: center;
+    }
+    .hero-text-box-1{
+        height: 195px;
+        width: 100%;
+    }
+    .hero-text-box-2{
+        height: 195px;
+        width: 100%;
+    }
+    .hero-button{
+        position: absolute;
+        top: 350px;
+    }
+    .text-box-sec-1{
+        height: 124px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        display: inline-block;
+    }
+    .section-main{
+        width: 100%;
+    }
+
+     /* --------------------------left text herose------------------------ */
+    .hero-text-1{
+        width: 45%;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-section-btns-1{
+        display: flex;
+        align-items: left;
+        margin-top: 40px;
+   }
+   .cards-02{
+    margin-top: 100px;
+}
+}
+
+/* //////////////////////////////   990  /////////////////////////////////// */
+@media(max-width: 990px) {
+    /* ----------three sec--------------------- */
+    .three-sections{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .three-section-01{
+        width: 100%;
+        height: 600px;
+    }
+    
+    /* -----------------section 3------------------- */
+    .section-3{
+         width: 100%;
+         height: 600px;
+    }
+    /* -------cards 02 ----------*/
+    .cards-02{
+        margin-top: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   /* -------cards 02 ----------*/
+   .cards-02{
+    margin-top: 750px;
+}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+/* --------------------------left text herose------------------------ */
+.hero-img{
+    height: 540px;
+}
+.hero-section-btns-1{
+    display: flex;
+    align-items: left;
+    margin-top: 50px;
+}
+/* -------cards 02 ----------*/
+.cards-02{
+    margin-top: 750px;
+}
+.only-text-p1{
+    width: 100%;
+    font-size: 14;
+}
+}
+
+
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 599px) {
+/* -----------------------------hero sec 1---------------------------------- */
+.hero-text-bottom-sec{
+    height: 520px;
+}
+ /* ------------------hero-text-box-1-------------------- */
+.hero-text-box-1-heading{
+    font-size: 1.6rem;
+}
+.hero-text-box-1-para{
+   font-size: 12px;
+   width: 100%;
+}
+.hero-button{
+    position: absolute;
+    top: 320px;
+}
+/* --------------------------left text herose------------------------ */
+.hero-img{
+    height: 510px;
+}
+.hero-text-1{
+    width: 57%;
+}
+.hero-heading-01{
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+ /* -------------------------Text and slides------------------------- */
+ .or{
+    margin: 20px 10px;
+    font-size: 18px;
+}
+.email-us{
+    font-size: 14px;
+}
+.e-add{
+    color: orangered;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.email{
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.hero-btns{
+    width: 140px;
+}
+.hero-section-btns{
+    display: flex;
+   margin-top: 0px;
+}
+.hero-para-2{
+font-size: 16px;
+}
+.hero-para-3{
+font-size: 14px;
+}
+/* -------cards 02 ----------*/
+.cards-02{
+    margin-top: 750px;
+}
+.only-text-p1{
+    width: 100%;
+    font-size: 12;
+}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 288px) and (max-width: 425px) {
+/* -----------------------------hero sec 1---------------------------------- */
+    .hero-text-bottom-sec{
+        height: 430px;
+        align-items: start;
+    }
+/* ------------------hero-text-box-1-------------------- */
+.hero-text-box-1-heading{
+    font-size: 1.6rem;
+}
+.hero-text-box-1-para{
+   font-size: 12px;
+   width: 100%;
+}
+.hero-text-box-1{
+    height: 240px;
+}
+/* ------------------hero-text-box-2-------------------- */
+.hero-button{
+    position: absolute;
+    top: 220px;
+}
+.slide-raised{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.slide-raised > span{
+    font-size: 16px;
+}
+.slide-raised > strong{
+    font-size: 30px;
+}
+
+/* --------------------------left text herose------------------------ */
+.hero-img{
+    height: 430px;
+}
+.hero-text-1{
+    width: 60%;
+}
+.hero-heading-01{
+    font-size: 30px;
+}
+.hero-p-01{
+   margin-top: 30px;
+}
+.hero-para-02{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.hero-section-btns-1{
+     margin-top: 0px;
+}
+.hero-btns{
+    margin-top: 15px;
+    height: 40px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+/* -----------------------page para 1------------------------ */
+.pagae-para-1{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* -------------------------Text and slides------------------------- */
+.slider-and-text{
+    width: 100%;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+.slider-text-sec-slider {
+    width: 100%;
+}
+.slider-txt{
+    width: 100%;
+    height: 650px;
+}
+.or{
+    margin: 20px 10px;
+    font-size: 18px;
+}
+.email-us{
+    font-size: 14px;
+}
+.e-add{
+    color: orangered;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.email{
+    margin-top: 17px;
+    margin-left: 33px;
+}
+.hero-btns{
+    border: 1px solid black;
+    height: 50px;
+    width: 140px;
+    margin: 7px;
+    align-self: center;
+    margin-left: 30px;
+    background-color: aliceblue;
+    color: black;
+}
+.hero-btns{
+    width: 140px;
+}
+.hero-section-btns{
+    display: flex;
+   margin-top: 0px;
+}
+.hero-para-2{
+font-size: 16px;
+}
+.hero-para-3{
+font-size: 14px;
+}
+/* ============three section=========== */
+.three-sections{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.three-sec-t-01-p{
+      font-size: 12px;
+}
+/* -------cards 02 ----------*/
+.cards-02{
+    margin-top: 550px;
+}
+.only-text-p1{
+    width: 100%;
+    font-size: 8;
+}
+}
